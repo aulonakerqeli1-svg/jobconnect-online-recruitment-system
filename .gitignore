@@ -1,0 +1,31 @@
+﻿# Dependencies
+front/node_modules/
+front/dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# User uploads and private documents
+**/uploads/*
+**/storage/*
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Uploaded user files
+**/uploads/
+**/storage/
